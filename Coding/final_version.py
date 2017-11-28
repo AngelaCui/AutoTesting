@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 Created on Fri Jun 23 13:38:38 2017
 
@@ -251,13 +251,7 @@ def ATimer(interval, Data_get, Tmp):
         MainProcess(Data_get, Tmp)
     except:
         print('Timing error')
-            
-
-
-
-
-
-
+    
 
 
 '''显示界面'''
@@ -266,23 +260,6 @@ class MainFrame():
         self.win = tk.Tk()
         self.win.title('Python GUI')
         self.createWidgets()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 win = tk.Tk()
